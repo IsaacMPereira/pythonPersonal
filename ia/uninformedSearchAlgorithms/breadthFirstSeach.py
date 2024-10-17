@@ -19,6 +19,7 @@ def bfs(graph, start):
             if neighbor not in visited:
                 visited.add(neighbor)
                 queue.append(neighbor)
+    print("\n")
 
 # Definindo o grafo como um dicionário
 graph = {
