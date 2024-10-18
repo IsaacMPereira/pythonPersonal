@@ -4,7 +4,7 @@ def bfs(graph, start):
     queue = deque([start])
     visitados = set([start])
 
-    while queue:
+    while queue: #Equanto a lsita não estiver vazia
         node = queue.popleft()
         print(node, end=" ")
 
