@@ -1,8 +1,8 @@
+#__all__ = ['Horse', 'Cat', 'Girafe']
+
 class Animal:
     def __init__(self, name):
         self.name = name
-
-    __all__ = ['Horse', 'Cat', 'Girafe']
 
     def eating(self):
         print(f"{self.name} is eating")
@@ -14,7 +14,11 @@ class Animal:
         print(f"{self.name} is sleeping")
 
 class Horse(Animal):
-    pass
+    def __init__(self, name):
+        super().__init__(name)
+
+    def trotting(self, times):
+        print(f"The horse is trotting {times} times")
 
 class Cat(Animal):
     pass

@@ -12,6 +12,7 @@ def main():
     h1.eating()
     h1.running()
     h1.sleeping()
+    h1.trotting(500)
     print()
 
     c1.eating()
