@@ -1,5 +1,7 @@
 from pessoa import Pessoa
 from pessoa import Fazendo
+#from pessoa import Pessoa, Fazendo
+#from pessoa import *
 
 def main():
     p1 = Pessoa("nome1", 17, 1.80, 80, "end1")

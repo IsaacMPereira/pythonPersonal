@@ -1,4 +1,4 @@
-#__all__ = ['Horse', 'Cat', 'Girafe']
+__all__ = ['Horse', 'Cat', 'Girafe']
 
 class Animal:
     def __init__(self, name):
