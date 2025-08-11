@@ -2,7 +2,7 @@ import bs4
 
 exampleFile = open('example.html')
 exampleSoup = bs4.BeautifulSoup(exampleFile.read())
-elems = exampleSoup.select('#autor')
+elems = exampleSoup.select('p')
 
 print(type(elems))
 
